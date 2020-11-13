@@ -24,7 +24,7 @@ Carefully (!), its only working with simple urls like above. Urls containing add
 
 ## Windows WSL Ubunutu Bash 
 
-Which does not use the "/mnt/c/Users/" folder (as the others above will do). This is, to prevent problems with diffrent line endings, using diffrent software and a like.
+Which does not use the same "/mnt/c/Users/<username>" folder, as the two others shells and commands will inviseble do). This is, to prevent problems with diffrent line endings, using diffrent software and a like. But it would be possible, if changing "~" to your Windows user profile path with "/mnt/" in front of. 
 
 ### 1. First time clone a new repository (like this one)
 

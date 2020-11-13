@@ -2,7 +2,7 @@
 
 Collection of my little helpers...
 
-## My 2 top most often used "onliners" for Git
+## My 2 top most often used "onliners" for Git via several shell's
 
     https://github.com/kaestnjas/Scripts.git
 

@@ -9,7 +9,7 @@ url=https://github.com/kaestnjas/Scripts.git;
 dir=$USERPROFILE'\source\repos\'"$(cut -d'/' -f3 <<<$url)"'\'"$(cut -d'/' -f4 <<<$url)";mkdir -p "$dir" && cd "$dir" && git clone $url && cd "$dir"/"$(cut -d'.' -f1 <<<$(cut -d'/' -f5 <<<$url))" && git config credential.helper store && git fetch --all && git pull
 
 Carefully (!), its only working with simple urls like above. Urls containing additional directories or dots like below wont work:
-url=https://github.com/kaestnjas/projects/Scripts.git;
+url=https://github.com/kaestnjas/projects/Scripts.git;  
 url=https://github.com/kaestnjas/Scripts.wiki.git;
 
 ### 2. Update all my local cloned repositories to the latest version

@@ -6,9 +6,7 @@ Collection of my little helpers...
 
 Sample url: https://github.com/kaestnjas/Scripts.git
 
-Carefully (!), its only working with simple urls like above. 
-
-Urls containing additional directories or dots like below wont work:
+Carefully (!), its only working with simple urls like above. Urls containing additional directories or dots like below wont work:  
 
   https://github.com/kaestnjas/projects/Scripts.git;  
   https://github.com/kaestnjas/Scripts.wiki.git;  

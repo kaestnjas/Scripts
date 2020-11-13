@@ -22,7 +22,9 @@ Carefully (!), its only working with simple urls like above. Urls containing add
 
     cd "$dir"/"$(cut -d'.' -f1 <<<$(cut -d'/' -f5 <<<$url))" && git config credential.helper store && git fetch --all && git reset --hard origin/master && git pull;cd $USERPROFILE'\source\repos\' && find . -type d -name .git -not -wholename "*kaestnjas/Scripts*" -not -wholename "*kaestnjas/Scripts.wiki*" -execdir sh -c "pwd && git config credential.helper store && git stash && git fetch --all && git clean -d -f && git pull" \;
 
-## Windows WSL Ubunutu Bash
+## Windows WSL Ubunutu Bash 
+
+Which does not use the "/mnt/c/Users/" folder (as the others above will do). This is, to prevent problems with diffrent line endings, using diffrent software and a like.
 
 ### 1. First time clone a new repository (like this one)
 

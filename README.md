@@ -4,14 +4,14 @@ Collection of my little helpers...
 
 ## My 2 top most often used "onliners" for Git via several shell's
 
-    https://github.com/kaestnjas/Scripts.git
+Sample url: https://github.com/kaestnjas/Scripts.git
 
 Carefully (!), its only working with simple urls like above. 
 
 Urls containing additional directories or dots like below wont work:
 
-    https://github.com/kaestnjas/projects/Scripts.git;  
-    https://github.com/kaestnjas/Scripts.wiki.git;
+  https://github.com/kaestnjas/projects/Scripts.git;  
+  https://github.com/kaestnjas/Scripts.wiki.git;  
 
 ## Windows GitBash from GitForWindows
 
